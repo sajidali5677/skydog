@@ -1,0 +1,943 @@
+@font-face {
+    font-family: "mera";
+    src: url("font/NORTHDENROUGH-FREE.ttf");
+   
+}
+@font-face{
+    font-family: "para";
+    src: url("font/GothamBook.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.page1{
+    width: 100%;
+    height: 120%;
+}
+.video{
+    position: fixed;
+    z-index: -1;
+}
+nav{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     padding: 0vmax 5vmax;
+}
+nav span{
+    width: 8%;
+    height:100%;
+    display: flex;
+flex-direction: row;
+align-items: center;
+gap: 1vmax;
+}
+nav span img{
+    width: 35%;
+    transition: .5s;
+}
+nav span img:hover{
+    background-color: #AAA;
+    border-radius: 10vmax;
+
+    
+
+}
+nav span button{
+width: 100%;
+height: 30%;
+color:#AAA ;
+background-color: transparent;
+flex-shrink: 0;
+border-radius: .5vmax;
+border: .1vmax solid #AAA;
+
+transition: .2s;
+}
+nav span button:hover{
+    background-color: #AAA;
+    color: black;
+
+}
+
+.p1top{
+    width: 100%;
+    height: 50%;
+    
+}
+
+.p1top img:nth-child(1){
+    width: 25%;
+    height: 45%;
+   position: absolute;
+   top: 30%;
+   left: -1%;
+   opacity: .5;
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+
+}
+.p1top img:nth-child(2){
+    width: 25%;
+    height: 50%;
+   position: absolute;
+   top: 25%;
+   left: 10%;
+   opacity: .7;
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+
+}
+.p1top img:nth-child(3){
+    width: 28%;
+    height: 60%;
+   position: absolute;
+   top:15% ;
+   left: 20%;
+   opacity: .8;
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+
+}
+.p1top img:nth-child(4){
+    width: 32%;
+    height: 70%;
+   position: absolute;
+   top: 5%;
+   left: 32%;
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+
+}
+.p1top img:nth-child(5){
+    width: 28%;
+    height: 60%;
+   position: absolute;
+   top: 15%;
+   right: 20%;
+   z-index: -1;
+   opacity: .8;
+
+}
+.p1top img:nth-child(6){
+    width: 25%;
+    height: 50%;
+   position: absolute;
+   top: 25%;
+   right: 10%;
+   z-index: -1;
+   opacity: .7;
+
+}
+.p1top img:nth-child(7){
+    width: 25%;
+    height: 45%;
+   position: absolute;
+   top: 30%;
+   right: -1%;
+   z-index: -1;
+   opacity: .5;
+
+}
+
+
+.p1bottom{
+    width: 100%;
+    height: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   
+
+}
+.p1bottom h1{
+color: #AAA;
+font-family: mera;
+font-size: 6vmax;
+font-weight: 400;
+
+
+}
+.p1bottom p{
+    
+    width: 80%;
+    color: #AAA;
+    text-align: center;
+font-family: para;
+font-size: 1.5vmax;
+font-weight: 400;
+line-height: 1.5vmax;
+}
+
+.btn1{
+    width: 10%;
+    height: 10%;
+    
+    
+}
+.btn1 button{
+    width: 100%;
+    height: 100%;
+  transition: .4s;
+    
+}
+.btn1 button:hover{
+    margin: -.5vmax;
+    box-shadow: 10px 10px 0px white ;
+    
+   
+
+}
+.page2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding:  10% 1% 0 1%;
+    
+    
+    
+}
+.p2left{
+    width: 36.5%;
+    height: 92%;
+    border: .2vmax solid #AAA;
+    margin-left: 8vmax;
+}
+
+.p2left img{
+    width: 100%;
+    height: 100%;
+    margin: -1.5vmax 0  0  -1vmax;
+}
+
+.p2right{
+    width: 50%;
+    height: 100%;
+    text-align: start;
+    padding-left: 1vmax;
+    margin-left: 2vmax;
+    
+}
+
+.p2right h1{
+    color: #AAA;
+    font-family: mera;
+    font-size: 5.5vmax;
+    font-weight: 400;
+    
+    
+    }
+    .p2right p{
+        margin-top: 1vmax;
+        width: 80%;
+        color: #AAA;
+        font-family: para;
+        font-size: 1.4vmax;
+        font-weight: 400;
+    
+    
+    }
+    
+    .btn2{
+        width: 20%;
+        height: 10%;
+        margin-top: 1vmax;
+        
+        
+    
+    }
+    .btn2 button{
+        width: 100%;
+        height: 100%;
+        margin: -.2vmax;
+        transition: .5s;
+        
+    }
+    .btn2 button:hover{
+        margin: -.5vmax;
+        box-shadow: 10px 10px 0px white ;
+        
+       
+    
+    }
+
+
+    .page3{
+        width: 100%;
+        height: 120%;
+        padding: 5%;
+       
+
+    }
+    .p3box{
+        width: 100%;
+        height: 110%;
+        border: .2vmax solid #FFF;
+        padding: .5vmax;
+        
+
+    }
+    .top{
+        width: 100%;
+        height: 4%;
+        display: flex;
+        justify-content: space-between;
+        color: #FFF;
+    }
+    .cards{
+        padding:  0 2vmax;
+        width: 100%;
+        height: 90%;
+        
+        
+    }
+    .card{
+        width: 22%;
+        height: 50%;
+         color: #AAA;
+        border: .1vmax solid #AAA;
+        padding: 1vmax;
+        display: inline-block;
+        margin-left: 2vmax;
+        margin-bottom: 1vmax;
+       
+        
+    }
+    .card h1{
+        font-size: 1.5vmax;
+    }
+    .card  span h3{
+        margin-left: -5vmax;
+    }
+    .card span button{
+        padding: .2vmax;
+        background-color: #AAA;
+        border-radius: .3vmax;
+    }
+
+    .cimg{
+        margin-top: .5vmax;
+        width: 100%;
+        height: 75%;
+    }
+    .card span{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .page4{
+        width: 100%;
+        height: 130%;
+        display: flex;
+        padding: 1vmax 5vmax ;
+       
+    }
+
+    .p4left{
+        width: 50%;
+        height: 55%;
+        color: #AAA;
+        text-align: start;
+        
+        margin-top: 6vmax;
+        margin-left: 8vmax;
+        
+    }
+
+    .p4left h1{
+        margin-top: 1vmax;
+        color: #AAA;
+        font-family: mera;
+        font-size: 5vmax;
+        font-weight: 400;
+        
+        
+        }
+    .p4left p{
+            
+            width: 80%;
+            color: #AAA;
+            margin-top: 1vmax;
+            font-family: para;
+        font-size: 1.2vmax;
+        font-weight: 400;
+        }
+        
+        .btn3{
+            margin-top: 1vmax;
+            width: 20%;
+            height: 10%;
+            
+            
+            
+        
+        }
+        .btn3 button{
+            width: 100%;
+            height: 100%;
+            margin: -.2vmax;
+            transition: .5s;
+        
+            
+            
+        }
+        .btn3 button:hover{
+            margin: -.5vmax;
+            box-shadow: 10px 10px 0px white ;
+            
+           
+        
+        }
+
+    .p4right{
+        width: 50%;
+        height: 100%;
+        margin-left: -12vmax;
+
+    
+
+    }
+    .p4right img{
+      width: 100%;
+      height: 90%;
+      
+    }
+
+    .page5{
+        width: 100%;
+        height: 75%;
+        margin-top: -2vmax;
+        
+    }
+    .page5 h1{
+        font-family: mera;
+        font-size: 6vmax; 
+        font-weight: 400;
+        color: #AAA;
+        
+
+    }
+    .scroll1 h1{
+        -webkit-text-stroke: 1px #AAA;
+        color: transparent;
+        
+
+    }
+    .scroll2 h1{
+        -webkit-text-stroke: 1px #AAA;
+        color: transparent;
+        
+
+    }
+   
+
+    .page6{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        line-height: 4vmax;
+        padding-top: 3vmax;
+    }
+    .page6 h1{
+         font-family: mera;
+        font-size: 7vmax; 
+        font-weight: 400;
+        color: #AAA;
+    }
+    .page6 p{
+        margin-top: 1.5vmax;
+        font-size: 2vmax;
+        color: #AAA;
+        font-family: para;
+    }
+    .page6 img{
+
+    width: 30%;
+    
+    }
+
+    
+    .page7{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .p7top{
+        width: 80%;
+        height:53%;
+        border: .2vmax solid #AAA;
+        display: flex;
+        padding: 2vmax;
+        color: #AAA;
+        border-radius: 1vmax;
+    }
+
+
+    .p7left{
+        margin-left: 5vmax;
+    }
+    .p7left h1{
+        font-family: mera;
+        font-size: 6vmax;
+        font-weight: 400;
+
+    }
+    .p7left p{
+        font-size: 1.3vmax;
+        font-family: para;
+        
+
+    }
+
+
+    .p7right{
+        width: 50%;
+        height: 100%;
+        gap: 1vmax;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin-right: 5vmax;
+    }
+    .p7right input{
+        padding: 1vmax 17vmax 1vmax 1vmax;
+        border-radius: 1vmax;
+        background-color: transparent;
+        border: .2vmax solid #AAA;
+        color: #FFF;
+    }
+    .p7right button{
+        padding: 1vmax 12.4vmax;
+        background-color:transparent;
+        color: #AAA;
+        border-radius: 1vmax;
+        border: .2vmax solid #AAA;
+        transition: .5s;
+    }
+    .p7right button:hover{
+        background-color: #fff;
+        color: black;
+    }
+    .p7bottom{
+        width: 100%;
+        height: 40%;
+        color: #AAA;
+        text-align: center;
+        margin-top: 6vmax;
+        line-height: 1.6vmax;
+        font-family: para;
+  
+    }
+
+
+
+    .p7bottom span i{
+        
+        font-size: 2vmax;
+    }
+    .p7last{
+        width: 100%;
+        height: 10%;
+        border-top: .2vmax solid #AAA;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2vmax;
+        font-family: para;
+        color: #AAA;
+    }
+
+    .p7last ul{
+        display: flex;
+        gap: 2vmax;
+        list-style-type: none;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 600px) {
+
+      html,body{
+        overflow-x: hidden;
+      }
+
+        
+        .page1{
+            width: 100%;
+            height: 120%;
+        
+        }
+        .video{
+        
+            object-fit: cover;
+
+            height: 100%;
+        }
+        nav{
+            height: 5%;
+            
+        }
+        nav img{
+            margin-left: -4vmax;
+        
+        }
+        nav span{
+        width: 30%;
+        
+        }
+        nav span img{
+    
+            margin-left: -1vmax;
+            font-size: 5vmax;
+        }
+      
+        nav span button{
+       margin-left: -2vmax;
+    
+        }
+       
+        
+        .p1top{
+            height: 30%;
+          position: relative;
+          margin-top: -8vmax;
+        
+        }
+       
+        
+        
+        .p1bottom{
+          margin-top: -9vmax;
+           
+        
+        }
+        .p1bottom h1{
+        text-align: center;
+        font-size: 7vmax;
+        
+        
+        
+        }
+       
+        .btn1{
+            width: 30%;
+            
+            
+            
+        }
+      
+        .page2{
+          margin-top: -35vmax;
+            display: inline-block;
+            
+            
+        }
+        .p2left{
+            width: 80%;
+            height: 60%;
+            border: .2vmax solid #AAA;
+            margin-left: 5vmax;
+        }
+        
+        .p2right{
+            width: 100%;
+            height: 60%;
+        }
+      
+        .p2right h1{
+           margin-top: 2vmax;
+            font-size: 2.8vmax;
+            margin-left: 2vmax;
+        
+            
+            
+            }
+            .p2right p{
+                margin-top: 2vmax;
+                font-size: 1.5vmax;
+                margin-left: 2vmax;
+            
+            
+            }
+            
+            .btn2{
+                width: 20%;
+                height: 10%;
+                margin-left: 15vmax;
+                
+                
+            
+            }
+           
+        
+        
+            .page3{
+                width: 100%;
+                height: 120%;
+                padding: 5%;
+               
+        
+            }
+            .p3box{
+                
+                height:70%;
+        
+            }
+            .top{
+               font-size: 1vmax;
+            }
+            .cards{
+            
+                width: 100%;
+                height:30%;
+                padding-bottom: -20vmax;
+                
+            }
+            .card{
+                width: 30%;
+                height: 60%;
+                margin-left: 5vmax;
+               
+               
+                
+            }
+            .card h1{
+                font-size: 1vmax;
+            }
+            .card  span h3{
+                font-size: .5vmax;
+                margin-left: -1vmax;
+            }
+            .card span button{
+                padding: .1vmax;
+              
+            }
+            .card span img{
+                width: 20%;
+            }
+        
+            .cimg{
+                margin-top: .5vmax;
+                width: 100%;
+             
+            }
+            
+        
+            .page4{
+                width: 100%;
+                height: 130%;
+                display: inline-block;
+      
+                padding: 1vmax 5vmax ;
+                margin-top: -35vmax;
+
+               
+            }
+        
+            .p4left{
+                width: 100%;
+            
+                margin-left: 2vmax;
+                
+            }
+        
+           
+                .btn3{
+                   margin-left: 8vmax;
+                   width: 50%; 
+                    margin-top: 3vmax;
+                    
+                
+                }
+               
+        
+            .p4right{
+                width: 100%;
+                height: 50%;
+                margin-left: 1vmax;
+                margin-top: -30vmax;
+            
+        
+            }
+          
+        
+            .page5{
+                width: 100%;
+                height: 75%;
+                margin-top: -20vmax;
+                
+            }
+           
+           
+        
+           
+            
+            .page6 img{
+        
+            width: 50%;
+            
+            }
+        
+            
+            .page7{
+                width: 100%;
+                height: 80%;
+                display: flex;
+                margin-top: -50vmax;
+            
+            }
+        
+            .p7top{
+                width: 80%;
+                height:25%;
+                display: inline-block;
+                
+            }
+        
+        
+            
+            .p7left h1{
+                
+                font-size: 4vmax;
+                
+        
+            }
+            .p7left p{
+               margin-bottom: 2vmax;
+                
+        
+            }
+        
+        
+            .p7right{
+                width: 100%;
+             
+            }
+           
+            .p7bottom{
+               
+                margin-top: 15vmax;
+               
+          
+            }
+        
+        
+            .p7bottom span p{
+                margin-top: 2vmax;
+                font-size: 1vmax;
+            }
+             
+            .p7bottom span i{
+                margin-top: 5vmax;
+                font-size: 2vmax;
+            }
+            .p7last{
+           
+                font-size: 1vmax;
+            }
+        
+           
+        
+        
+        
+
+
+        
+    }
